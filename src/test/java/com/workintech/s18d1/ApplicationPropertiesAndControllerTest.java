@@ -211,5 +211,3 @@ class ApplicationPropertiesAndControllerTest {
                 .andExpect(jsonPath("$[0].contents", containsString("Cheese")));
     }
 }
-
-
